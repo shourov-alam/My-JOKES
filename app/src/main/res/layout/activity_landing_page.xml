@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+    tools:context=".LandingPage">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:src="@drawable/ic_launcher_background"
+    android:layout_gravity="center"
+    android:layout_marginTop="50dp"
+
+    />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:text="My Jokes"
+        android:textSize="20dp"
+      android:textColor="#000000"
+
+        />
+
+    <Button
+        android:id="@+id/joke"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+      android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+
+
+        android:background="@drawable/button"
+
+        android:text="Read Jokes"
+        android:textStyle="bold"
+        android:textSize="18dp"
+        android:textColor="#fefefe" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+
+
+        >
+
+        <Button
+            android:layout_weight="1"
+            android:layout_width="200dp"
+            android:textColor="#fefefe"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button"
+            android:layout_marginTop="15dp"
+            android:layout_marginLeft="40dp"
+            android:textSize="12dp"
+            android:textStyle="bold"
+
+            android:text="Rate This App"
+            android:layout_marginRight="20dp"
+            android:id="@+id/rate"
+            />
+
+        <Button
+            android:layout_weight="1"
+            android:layout_marginTop="15dp"
+            android:textColor="#fefefe"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/button"
+            android:layout_marginLeft="20dp"
+            android:textStyle="bold"
+            android:textSize="12dp"
+
+            android:text="Share this app"
+            android:id="@+id/share"
+
+
+            />
+
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
